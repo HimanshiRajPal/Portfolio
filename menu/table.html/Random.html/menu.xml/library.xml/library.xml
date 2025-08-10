@@ -1,0 +1,15 @@
+<!DOCTYPE library [    
+<!ELEMENT library (book+)>
+<!ELEMENT book (title,author,year)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST book isbn CDATA #REQUIRED>
+]>
+<library>
+    <book isbn="9978-0547928227">
+        <title>The Hobbit</title>
+        <author>J.R.R. toikien</author>
+        <year>1937</year>
+    </book>
+</library>

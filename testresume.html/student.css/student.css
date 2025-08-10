@@ -1,0 +1,16 @@
+#StudentTable {
+    border-collapse: collapse;
+  }
+  
+  #StudentTable th, #StudentTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #StudentTable th {
+    background-color: #ADD8E6;
+  }
+  
+  #StudentTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

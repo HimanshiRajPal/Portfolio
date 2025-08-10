@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main{
+    static void Printingarray(int[] array){
+        for(int i =0;i<array.length;i++){
+            System.out.print(array[i];)
+        }
+        System.out.println();
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int [] arr1 = new int[3];
+        arr1[0]=1;
+        arr2[1]=2;
+        arr2[2]=3;
+        System.out.println("your original array is");
+        Printingarray(arr1);
+        int [] arr2= arr1;
+        System.out.println("your copied array is");
+        Printingarray(arr2);
+    }
+}
